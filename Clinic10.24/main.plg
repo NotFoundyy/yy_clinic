@@ -1,0 +1,49 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: main - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\yy\AppData\Local\Temp\RSPD9C6.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/main.pdb" /debug /machine:I386 /out:"Debug/main.exe" /pdbtype:sept 
+.\Debug\main.obj
+]
+Creating command line "link.exe @C:\Users\yy\AppData\Local\Temp\RSPD9C6.tmp"
+<h3>Output Window</h3>
+Linking...
+main.obj : error LNK2001: unresolved external symbol "int __cdecl clinic_init(void)" (?clinic_init@@YAHXZ)
+main.obj : error LNK2001: unresolved external symbol "int __cdecl UserOrderWin_init(void)" (?UserOrderWin_init@@YAHXZ)
+main.obj : error LNK2001: unresolved external symbol "int __cdecl ChangePwdWin_init(void)" (?ChangePwdWin_init@@YAHXZ)
+main.obj : error LNK2001: unresolved external symbol "int __cdecl UserImproveWin_init(void)" (?UserImproveWin_init@@YAHXZ)
+main.obj : error LNK2001: unresolved external symbol "int __cdecl UserCenterWin_init(void)" (?UserCenterWin_init@@YAHXZ)
+main.obj : error LNK2001: unresolved external symbol "int __cdecl classQueryWin_init(void)" (?classQueryWin_init@@YAHXZ)
+main.obj : error LNK2001: unresolved external symbol "int __cdecl NewDoctorWin_init(void)" (?NewDoctorWin_init@@YAHXZ)
+main.obj : error LNK2001: unresolved external symbol "int __cdecl doctorManWin_init(void)" (?doctorManWin_init@@YAHXZ)
+main.obj : error LNK2001: unresolved external symbol "int __cdecl userQueryWin_init(void)" (?userQueryWin_init@@YAHXZ)
+main.obj : error LNK2001: unresolved external symbol "int __cdecl UserLoginWin_init(void)" (?UserLoginWin_init@@YAHXZ)
+main.obj : error LNK2001: unresolved external symbol "int __cdecl DoctorLoginWin_init(void)" (?DoctorLoginWin_init@@YAHXZ)
+main.obj : error LNK2001: unresolved external symbol "int __cdecl AdminLoginWin_init(void)" (?AdminLoginWin_init@@YAHXZ)
+main.obj : error LNK2001: unresolved external symbol "int __cdecl UserWin_init(void)" (?UserWin_init@@YAHXZ)
+main.obj : error LNK2001: unresolved external symbol "int __cdecl DoctorWin_init(void)" (?DoctorWin_init@@YAHXZ)
+main.obj : error LNK2001: unresolved external symbol "int __cdecl AdminWin_init(void)" (?AdminWin_init@@YAHXZ)
+main.obj : error LNK2001: unresolved external symbol "int __cdecl LoginChoseWin_init(void)" (?LoginChoseWin_init@@YAHXZ)
+main.obj : error LNK2001: unresolved external symbol "int __cdecl LoginWin_init(void)" (?LoginWin_init@@YAHXZ)
+main.obj : error LNK2001: unresolved external symbol "int __cdecl RegisterWin_init(void)" (?RegisterWin_init@@YAHXZ)
+main.obj : error LNK2001: unresolved external symbol "int __cdecl InitWin_init(void)" (?InitWin_init@@YAHXZ)
+main.obj : error LNK2001: unresolved external symbol "struct list * __cdecl readClaFile(struct _iobuf *)" (?readClaFile@@YAPAUlist@@PAU_iobuf@@@Z)
+main.obj : error LNK2001: unresolved external symbol "struct list * __cdecl readDocFile(struct _iobuf *)" (?readDocFile@@YAPAUlist@@PAU_iobuf@@@Z)
+main.obj : error LNK2001: unresolved external symbol "struct list * __cdecl readAccFile(struct _iobuf *)" (?readAccFile@@YAPAUlist@@PAU_iobuf@@@Z)
+main.obj : error LNK2001: unresolved external symbol "struct _iobuf * __cdecl file_open(char *)" (?file_open@@YAPAU_iobuf@@PAD@Z)
+Debug/main.exe : fatal error LNK1120: 23 unresolved externals
+Ö´ÐÐ link.exe Ê±³ö´í.
+
+
+
+<h3>Results</h3>
+main.exe - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
